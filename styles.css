@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  font-family: 'Pacifico', cursive;
+  background: #e7c8dd;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-size: 6rem;
+  color: #86626e;
+}
+
+.sub-wrapper input {
+  width: 10vw;
+  height: 10vh;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  color: #dbafc1;
+  box-shadow: 4px 10px #dbafc1;
+}
+
+.sub-wrapper button {
+  color: #dbafc1;
+  box-shadow: 4px 10px #dbafc1;
+  width: 5vw;
+  height: 5vh;
+  /* font-size: 0.7rem; */
+  background: #defffc;
+}
